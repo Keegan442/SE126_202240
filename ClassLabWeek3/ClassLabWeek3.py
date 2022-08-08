@@ -58,7 +58,7 @@ with open("ClassLabWeek3/voters_202040.csv") as csvfile:
 
 
 print("\n\nNot eligible to register: {0:2}".format(notElig_reg))
-print(" Not registered to vote: {0:2}".format(notReg))
-print("\t Did not vote: {0:2}".format(didNotVote))
+print("Not registered to vote: {0:2}".format(notReg))
+print("\n\t Did not vote: {0:2}".format(didNotVote))
 print("\t People Voted: {0:2}".format(num_vote))
 print("\n TOTAL RECORDS PROCESSED: {0:2}\n\n".format(total_records))
