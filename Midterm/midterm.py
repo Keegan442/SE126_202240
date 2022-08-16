@@ -1,7 +1,7 @@
 #Midterm Project
 #Keegan Preston
 
-#Program Prompt:
+#Program Prompt: This program reads a list of metal bands and organizes it by name of the band, year they formed, their country of origin, year they split(if they did), and the style of the band. Then the program takes that information and outputs how many bands are from each country and how many bands are still active. 
 
 #Variable Dictionary:
 #records - number of records in file
@@ -97,7 +97,7 @@ for i in range(0, records):
     elif conOrg[i] == "Australia":
         auBands += 1
     
-    if yrSplit == "-":
+    if yrSplit[i] == "-":
         stillActive += 1
     else:
         stillActive += 0
