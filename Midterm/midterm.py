@@ -26,6 +26,8 @@
 #yrSplit - year the band split (if they did)
 #style - music style of band
 
+#Functions:
+
 #MAIN CODE------------------------------------------------------------------------------------------------------------------------
 
 import csv
